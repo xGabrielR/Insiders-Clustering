@@ -1,0 +1,9 @@
+MONGO_DB = '#'
+MONGO_USER = "#"
+MONGO_PASSWORD = "#"
+MONGO_COLLECTION = '#'
+SSMS_DB = "#"
+SSMS_USER = "#"
+SSMS_PSWD = '#"'
+SSMS_PORT = "#"
+SSMS_HOST = "#"
