@@ -18,7 +18,8 @@
   - [2.1. Top 3 Business Hypothesis Validation](#21-top-3-business-hypothesis-validation)
   - [2.2. Cluster Insiders Overview](#22-cluster-insiders-overview)
 - [3. Data Preparation](#3-data-preparation)
- 
+  - [3.1. Embedding Clients Space](#31-embedding-clients-space)
+
 <hr>
 
 <h2>0. Business Problem</h2>
