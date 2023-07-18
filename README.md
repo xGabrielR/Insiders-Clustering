@@ -19,6 +19,7 @@
   - [2.2. Cluster Insiders Overview](#22-cluster-insiders-overview)
 - [3. Data Preparation](#3-data-preparation)
   - [3.1. Embedding Clients Space](#31-embedding-clients-space)
+- [4. Machine Learning Metrics](#4-machine-learning-metrics)
 
 <hr>
 
@@ -110,3 +111,20 @@ https://user-images.githubusercontent.com/75986085/219869832-7b4dafae-4f4b-4ac5-
 
 <p>This is the insiders cluster a little distanced from the others with the best characteristics obtained, these are the most valuable customers found with the clustering methods carried out in the project to find ops customers for the loyalty program.</p>
 <p>I could explore these 551 detected users a little more, probably there should be more groups within this same group, so it is possible to find the most valuable of the valuable and deliver them to the marketing team and the other teams in the presentation of results.</p>
+
+<h2>4. Machine Learning Metrics</h2>
+
+<hr>
+
+<p>I have made a package called cluster-ss for my auxliar clustering project, the package in this link: https://pypi.org/project/cluster-ss/</p>
+<p>With this package i run all sklearn clustering disponible solutions and its give to me a good overview of my chosed metric (sihlouette score).</p>
+
+![image](https://github.com/xGabrielR/Insiders-Clustering/assets/75986085/409c86fc-d31b-45ba-98b5-1d49ee05407c)
+
+<p>For best params with optuna search, I chosed 9 K Clusters (9 different groups of clients for business), its a good number, not much large and i think is a good start for solution for this problem now with clustering machine learning meethods.</p>
+
+<p>And for sales forecasting, i have used FB Prophet, is a classic and good solution on my perspective, have another popular solution like statsforecast, but i have chsed FB insted.</p>
+
+![image](https://github.com/xGabrielR/Insiders-Clustering/assets/75986085/fe8c9719-8804-4f2a-b844-ae24f0a71018)
+
+
