@@ -123,7 +123,7 @@ https://user-images.githubusercontent.com/75986085/219869832-7b4dafae-4f4b-4ac5-
 
 <p>For best params with optuna search, I chosed 9 K Clusters (9 different groups of clients for business), its a good number, not much large and i think is a good start for solution for this problem now with clustering machine learning meethods.</p>
 
-<p>And for sales forecasting, i have used FB Prophet, is a classic and good solution on my perspective, have another popular solution like statsforecast, but i have chsed FB insted.</p>
+<p>And for sales forecasting, i have used FB Prophet, is a classic and good solution on my perspective, have another popular solution like statsforecast, but i have chased FB instead.</p>
 
 ![image](https://github.com/xGabrielR/Insiders-Clustering/assets/75986085/fe8c9719-8804-4f2a-b844-ae24f0a71018)
 
