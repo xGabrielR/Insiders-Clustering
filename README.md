@@ -100,7 +100,7 @@ https://user-images.githubusercontent.com/75986085/219869832-7b4dafae-4f4b-4ac5-
 
 <hr>
 
-<p>On first cycle, i try use some computed features for find key users and MinMaxScaler, but the silhouette score (by key metric for clustering) is very low, based on this low metric I have transformed the feature space for a Embedding space to up the silhouette score metric and used very simple computed metric on feature engineering.</p>
+<p>On first cycle, i try use some computed features for find key users and MinMaxScaler, but the silhouette score (by key metric for clustering) is very low, based on this low metric I have transformed the feature space for a Embedding space to up the silhouette score metric and used very simple computed metric (recency, qnty_itens and frequency) on feature engineering.</p>
 <p>For my last try, I have get with DBSCAN silhouette score aprox 0.68, but i not find a insiders cluster with this solution, I have chosed Gausain Mixture for clustering, with GMM i get a metric with aprox 0.480 with optuna optimization for params, a little low based on DBSCAN metric, but with GMM is possible to find a good insiders clsuter with very different characteristics of other finded groups.</p>
 
 <h3>3.1. Embedding Clients Space</h3>
