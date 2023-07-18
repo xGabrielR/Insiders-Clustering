@@ -76,5 +76,20 @@ https://user-images.githubusercontent.com/75986085/219869832-7b4dafae-4f4b-4ac5-
 ![image](https://github.com/xGabrielR/Insiders-Clustering/assets/75986085/99844034-c2e0-4810-93ff-bde94faecad6)
 
 
-<><>
+<h3>2.2. Cluster Insiders Overview</h3>
+
+<p>The Most Userful Information for the cluster insiders is this simple four lines below, its give some base and good information about users in insiders cluster, the company have 551 good clients given a total of: 5700.</p>
+
+<ol>
+  <li>Number of Customers: 551;</li>
+  <li>Average Revenue: BRL 9354.00;</li>
+  <li>Average Recency: 50;</li>
+  <li>Average purchases: 13;</li>
+</ol>
+
+
+<p>In this table below, is information abaou all results of clustering process.</p>
+
+![image](https://github.com/xGabrielR/Insiders-Clustering/assets/75986085/7eb468ca-eb4c-419c-915e-4a84b51841c9)
+
 
