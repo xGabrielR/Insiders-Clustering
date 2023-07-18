@@ -16,6 +16,7 @@
   - [1.1. Geral Project Overview](#11-geral-project-overview)
 - [2. Exploratory Data Analysis](#2-exploratory-data-analysis)
   - [2.1. Top 3 Business Hypothesis Validation](#21-top-3-business-hypothesis-validation)
+  - [2.2. Cluster Insiders Overview](#22-cluster-insiders-overview)
  
 <hr>
 
