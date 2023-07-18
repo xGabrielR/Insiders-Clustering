@@ -17,6 +17,7 @@
 - [2. Exploratory Data Analysis](#2-exploratory-data-analysis)
   - [2.1. Top 3 Business Hypothesis Validation](#21-top-3-business-hypothesis-validation)
   - [2.2. Cluster Insiders Overview](#22-cluster-insiders-overview)
+- [3. Data Preparation](#3-data-preparation)
  
 <hr>
 
@@ -93,4 +94,18 @@ https://user-images.githubusercontent.com/75986085/219869832-7b4dafae-4f4b-4ac5-
 
 ![image](https://github.com/xGabrielR/Insiders-Clustering/assets/75986085/7eb468ca-eb4c-419c-915e-4a84b51841c9)
 
+<h2>3. Data Preparation</h2>
 
+<hr>
+
+<p>On first cycle, i try use some computed features for find key users and MinMaxScaler, but the silhouette score (by key metric for clustering) is very low, based on this low metric I have transformed the feature space for a Embedding space to up the silhouette score metric and used very simple computed metric on feature engineering.</p>
+<p>For my last try, I have get with DBSCAN silhouette score aprox 0.68, but i not find a insiders cluster with this solution, I have chosed Gausain Mixture for clustering, with GMM i get a metric with aprox 0.480 with optuna optimization for params, a little low based on DBSCAN metric, but with GMM is possible to find a good insiders clsuter with very different characteristics of other finded groups.</p>
+
+<h3>3.1. Embedding Clients Space</h3>
+
+<p>In the image below it is possible to observe the customers in their respective groups represented by colors.</p>
+
+![image](https://github.com/xGabrielR/Insiders-Clustering/assets/75986085/e4a4a481-f8ae-4dc8-b74c-40fe0f4fdc89)
+
+<p>This is the insiders cluster a little distanced from the others with the best characteristics obtained, these are the most valuable customers found with the clustering methods carried out in the project to find ops customers for the loyalty program.</p>
+<p>I could explore these 551 detected users a little more, probably there should be more groups within this same group, so it is possible to find the most valuable of the valuable and deliver them to the marketing team and the other teams in the presentation of results.</p>
