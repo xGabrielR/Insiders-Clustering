@@ -43,6 +43,15 @@
 
 <p>But, for all in one place, the main objective is to find key customers with high frequency, monetization and basket size for fidelity program, exists some ways for this process, like RFM Model, is a good baseline for fast solution for give a good value for business.</p>
 
+<p>The Objective is find customers to make a insiders group (fidelity program name) in this company, the ds team need to answer another business question for better explain of this group</p>
+
+1. What is the Quantity of clients in insiders ?
+2. What is principal characteristics of this clients ?
+3. What is percentage of invoice of group ?
+4. What is the proft forecast from this group ?
+5. What is the conditions of new client to join and left from insiders group ?
+6. What is the garantee of inserders group profit is better than another clients ?
+7. What actions the marketing team need to do for insiders group ?
 
 <h2>1. Solution Strategy and Assumptions Resume</h2>
 <hr>
