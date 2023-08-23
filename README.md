@@ -97,19 +97,39 @@ https://user-images.githubusercontent.com/75986085/219869832-7b4dafae-4f4b-4ac5-
   <li>Number of Customers: 551;</li>
   <li>Average Revenue: BRL 9354.00;</li>
   <li>Average Recency: 50;</li>
-  <li>Average purchases: 13;</li>
+  <li>Average Purchases: 13;</li>
 </ol>
 
+<p>In Pyspark i get another cool cluster</p>
 
-<p>In this table below, is information abaou all results of clustering process.</p>
+<ol>
+  <li>Number of Customers: 409;</li>
+  <li>Average Revenue: BRL 7255.40;</li>
+  <li>Average Recency: 49.36;</li>
+  <li>Average Quantity Itens: 4201.97;</li>
+  <li>Average Itens Return: *181.92*;</li>
+</ol>
+
+<p>In this table below, is information about all results of clustering process.</p>
 
 ![image](https://github.com/xGabrielR/Insiders-Clustering/assets/75986085/7eb468ca-eb4c-419c-915e-4a84b51841c9)
+
+<p>Using Pyspark and another tools, i get some good clusters too using GMM, is possible to see, GMM crating very cool clusters (Not like kmeans) in this embeddings space.</p>
+
+<p>Cluster Dataframe Metrics:</p>
+
+
+
+<p>GMM Gaussians:</p>
+
+
 
 <h2>3. Data Preparation</h2>
 
 <hr>
 
 <p>On first cycle, i try use some computed features for find key users and MinMaxScaler, but the silhouette score (by key metric for clustering) is very low, based on this low metric I have transformed the feature space for a Embedding space to up the silhouette score metric and used very simple computed metric (recency, qnty_itens and frequency) on feature engineering.</p>
+<p>I have finded very aggressive outliers in this dataset, for example please, checkout pyspark notebooks descriptive statistics, but all of then i have removed from Dataframe based on my assumptions for this project.</p>
 <p>For my last try, I have get with DBSCAN silhouette score aprox 0.68, but i not find a insiders cluster with this solution, I have chosed Gausain Mixture for clustering, with GMM i get a metric with aprox 0.480 with optuna optimization for params, a little low based on DBSCAN metric, but with GMM is possible to find a good insiders clsuter with very different characteristics of other finded groups.</p>
 
 <h3>3.1. Embedding Clients Space</h3>
@@ -136,4 +156,5 @@ https://user-images.githubusercontent.com/75986085/219869832-7b4dafae-4f4b-4ac5-
 
 ![image](https://github.com/xGabrielR/Insiders-Clustering/assets/75986085/fe8c9719-8804-4f2a-b844-ae24f0a71018)
 
+<p>Using Spark I have selected Hyperopt for fine tuning to get best clusters based on Silhouette score, is little small, but i can get business cool clusters.</p>
 
