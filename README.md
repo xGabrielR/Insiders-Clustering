@@ -118,10 +118,11 @@ https://user-images.githubusercontent.com/75986085/219869832-7b4dafae-4f4b-4ac5-
 
 <p>Cluster Dataframe Metrics:</p>
 
-
+![image](https://github.com/xGabrielR/Insiders-Clustering/assets/75986085/623efcf2-a9a9-469c-ad3a-b8347fcd0473)
 
 <p>GMM Gaussians:</p>
 
+![image](https://github.com/xGabrielR/Insiders-Clustering/assets/75986085/649959c9-6c57-4a25-be0a-6025fa7be19c)
 
 
 <h2>3. Data Preparation</h2>
